@@ -1,0 +1,57 @@
+/* Global styles
+------------------------------*/
+body {
+    color: #FBF9FF;
+}
+img {
+    width: 300px;
+}
+a {
+    color: #FFFD77;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* Profile
+------------------------------*/
+header {
+    background: #4059AD;
+}
+
+/* Projects
+------------------------------*/
+.projects {
+    background: #FBF9FF;
+    color: #222222;
+}
+
+.projects a {
+    color: #4059AD;
+}
+
+.projects .btn {
+    border-radius: 4px;
+    padding: 8px;
+
+    background:#4059AD;
+    color: #FBF9FF;
+    text-decoration: none;
+}
+
+.projects .btn:hover {
+    background:rgba(64, 89, 173, 75%);
+}
+
+/* Education
+------------------------------*/
+.education {
+   background: #AED9E0;
+   color: #222222;
+}
+
+/* Contact Info
+------------------------------*/
+footer {
+    background: #4059AD;
+}
