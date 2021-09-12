@@ -1,0 +1,97 @@
+/* Global styles
+------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #202020;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+img {
+    width: 300px;
+}
+a {
+    color: gold;
+}
+a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Six Caps', sans-serif;
+    font-size: 128px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-shadow:  0.06em 0.06em 0 midnightblue, 0.08em 0.08em 0 whitesmoke;
+    letter-spacing: 0.2em;
+}
+h2 {
+    font-size: 24px;
+    letter-spacing: 0.04em;
+}
+h1, h2 {
+    margin: 0;
+}
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* Profile
+------------------------------*/
+header {
+    background: midnightblue;
+    color: whitesmoke;
+}
+
+/* Projects
+------------------------------*/
+.projects {
+    background: #FFF3B0;
+}
+.projects a {
+    color: midnightblue;
+}
+.projects .btn {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 8px;
+    background:midnightblue;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.projects .btn:hover {
+    background:rgba(25, 25, 112, 75%);
+}
+.project-item {
+    overflow: hidden;
+    /* border-bottom: 1px dashed #222222; */
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
+}
+
+/* Education
+------------------------------*/
+.education {
+   background: #BEDCFE;
+}
+
+/* Contact Info
+------------------------------*/
+footer {
+    background: #202020;
+    color: whitesmoke;
+}
